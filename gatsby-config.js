@@ -37,7 +37,6 @@ module.exports = (themeOptions) => {
             { resolve: `gatsby-remark-copy-linked-files` },
             { resolve: `gatsby-remark-smartypants` },
           ],
-          remarkPlugins: [require(`remark-slug`)],
         },
       },
       {
